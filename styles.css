@@ -28,8 +28,45 @@ navbar{
 
 section.Presentacion {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
     padding: 20px;
+    gap: 20px;
+    
+}
+
+section.Cuadro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #000;
+    width: 50vw;
+    margin-inline-start: 25%;
+    
+}
+
+.Agenda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 225px 10px 225px;
+    border: 1px solid rgb(37, 37, 159);
+    background: rgb(37, 37, 159);
+    
+}
+
+.Texto-Agenda {
+    color: white;
+}
+
+
+.Partido{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    width: 100%;
+    padding-left: 5px; padding-right: 5px;
 }
