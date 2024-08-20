@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+navbar{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: gainsboro;
+    border: 1px solid #000;
+    height: 70px;
+    padding: 10px;
+}
+
+.boton-balon{
+    display: flex;
+    justify-content: flex-end;
+    height: 30px;
+    width: 30px;
+    border: 2px solid #000;
+    color: #000;
+    border-radius: 5px;
+}
+
+/* colocar icono de la pelota */
+
+section.Presentacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
