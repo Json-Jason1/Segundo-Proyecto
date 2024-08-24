@@ -54,7 +54,7 @@ section.Cuadro {
     padding: 10px 225px 10px 225px;
     border: 1px solid rgb(37, 37, 159);
     background: rgb(37, 37, 159);
-    
+
 }
 
 .Texto-Agenda {
@@ -70,3 +70,25 @@ section.Cuadro {
     width: 100%;
     padding-left: 5px; padding-right: 5px;
 }
+
+.about-us {
+    display: flex; 
+    justify-content: space-around;  
+    align-items: start;
+    flex-direction: column;
+    background-color: gainsboro;
+    margin-top: 50%;
+    padding: 10px;
+
+}
+
+.clickeables {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 25px;
+
+}
+
